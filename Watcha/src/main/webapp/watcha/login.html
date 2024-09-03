@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Watcha Login</title>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+       body {
+              background-image:url("img/main_img.png");
+              background-repeat:no-repeat; 
+                       background-size:100% 100%;
+
+            }
+            
+       span{display:inline-block;}
+       .join{margin-left: 110 px;
+            padding: 20px 100px;
+             position:absolute;
+             right:20px; 
+             top:5px;
+             }
+      
+
+        div {
+            margin: auto;
+            width: 300px;
+            border-radius: 5px;
+            text-align: center;
+            padding: 20px;
+        }
+   
+        h2{
+            color: white;
+            }
+            
+        input{
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .in {
+            margin-bottom: 10px;
+            width:100%;
+        }
+
+        #btn {
+            background-color:#DF0174;
+            color: white;
+            margin-bottom: 30px;
+            text-align:center; 
+            inline-height:40px;
+			pont-size:16px;
+			border-radius:40px;
+            }
+
+         
+           span
+           .img{margin-top: 50px;
+           }
+           
+           #kakao{margin-left: 70px;
+           
+           
+                  }
+           
+            
+         a{
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            }
+            
+        p{text-align:center;
+         color:white;
+         font-size: 12px;
+         }     
+</style>
+</head>
+<body>
+<img src="img/logo.png"  width="100" height="40">
+        <br><br><br><br>
+    <div>
+        <form action="">
+         <span class="join"><a href ="https://watcha.com/sign_up">
+         <input type="button" value="회원가입"></a></span>
+
+          <br>
+             <table>
+                <col width="50%"><col width="50%">
+                <tr><td><h2>로그인&nbsp;&nbsp;&nbsp;&nbsp;</h2></td>
+                   <th><a style="font-size:10px" href="https://watcha.com/find_password">비밀번호를 잊어버리셨나요?</a>
+                   </th></tr>
+                <tr><th colspan="2">
+                     <input type="text"  placeholder="이메일(example@gmail.com)" class="in">
+                  </th></tr>
+               <tr><th colspan="2">
+                     <input type="password" placeholder="비밀번호" class="in">
+                  </th></tr>                    
+               <tr><th colspan="2">
+                     <input type="submit" id="btn" value="로그인">
+                  </th></tr>
+               <tr style="border-top:1px solid white;color:white;text-align:left;">
+                  <td colspan="2" style="">
+                  <hr>
+                     다른방법으로 로그인하기
+                  </td>
+               </tr>
+               <tr><td colspan="2"> 
+                    <div>
+                    <span class="img">
+                     <a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Fkauth.kakao.com%2Foauth%2Fauthorize%3Fproxy%3DeasyXDM_Kakao_q4jbwjhqhaj_provider%26ka%3Dsdk%252F1.43.3%2520os%252Fjavascript%2520sdk_type%252Fjavascript%2520lang%252Fko-KR%2520device%252FWin32%2520origin%252Fhttps%25253A%25252F%25252Fwatcha.com%26origin%3Dhttps%253A%252F%252Fwatcha.com%26response_type%3Dcode%26redirect_uri%3Dkakaojs%26state%3Dtnmpzowdk92staygo028g%26through_account%3Dtrue%26client_id%3D4b93b6b07f894228c135d924d3b7e4d9&talk_login=hidden#login">
+                       <img src="img/kakao.png" width="30" height="30"
+                      ></a>
+            
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Fwatcha.com%3Fid%3Dauth9384&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=92194208146-gksglleq2nthlsori3o1frjfjtiujf1f.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fwatcha.com&fetch_basic_profile=true&gsiwebsdk=2&service=lso&o2v=1&theme=mn&ddm=0&flowName=GeneralOAuthFlow">
+                     <img src="img/google.png" width="30" height="30"></a>   
+                         &nbsp;          
+                     <a href="https://api.twitter.com/oauth/authenticate?oauth_token=eMMeHgAAAAABD573AAABjqGhXZI">
+                     <img src="img/twitter.png" width="60" height="30"></a>
+            
+                     <a href="https://appleid.apple.com/auth/authorize?client_id=com.frograms.WATCHAPLAY.signinwithapple&redirect_uri=https%3A%2F%2Fwatcha.com%2Fauth%2Fapple&response_type=code%20id_token&scope=name%20email&response_mode=web_message&frame_id=eaea0d78-8065-4798-aff2-dfda6bd741a2&m=11&v=1.5.5">
+                     <img src="img/apple.png" width="60" height="30"></a>
+                      
+                     <a href="https://access.line.me/oauth2/v2.1/login?returnUri=%2Foauth2%2Fv2.1%2Fauthorize%2Fconsent%3Fresponse_type%3Dcode%26client_id%3D1653909543%26redirect_uri%3Dhttps%253A%252F%252Fwatcha.com%252Fauth%252Fline%253Frequest_id%253Dweb_1d82fa1b1acd5aa3ee9048aa65a3709f%26state%3DJZPRCyZed5_QCHEaV_Z57%26scope%3Dprofile&loginChannelId=1653909543&loginState=ZPbTkzlFM4rcmpHGvjm7Ko#/">
+                     <img src="img/LINE.png" width="50" height="30"></a>
+                     </span>
+                     </div>
+                                       
+       </td></tr>
+                                                   
+                  
+            </table>
+        </form>
+        
+          </div>
+          
+      <br><br><br><br><br>
+      <p><small><b>고객센터(이용 및 결과 문의)&nbsp;&nbsp;cs@watcha.co.kr</b>*02-515-9985(유료)/<b>제휴 및 대외 협력&nbsp;&nbsp; https://watcha.com/</b><br>
+       주식회사 왓챠/대표 박태훈/서울특별시 서초구 강남대로 343 신덕빌딩 3층/사업등록번호 211-88-66013/
+       <ins>통신판매업 신고번호 제 2019-서울서초-0965호/</ins>
+       호스팅&nbsp;서비스&nbsp;제공자&nbsp;아마존웹서비시즈코리아&nbsp;유한회사/<br>
+       /대표번호 02-515-9985/<ins>이용약관</ins>/개인정보&nbsp;처리&nbsp;방침/&nbsp;청소년보호정책</small></p>
+           <br>       
+</body>
+</html>
