@@ -8,8 +8,9 @@
 5. 작업 툴 : HTML, CSS<br>
 6. 작업 인원 : 3명<br>
 
-7. 결과물 : <br>
-   1)&nbsp;화면구현<br>
+7. 결과물 :
+# <화면구현>
+1) 로그인 & 회원가입
    ![image](https://github.com/user-attachments/assets/760a7e75-2abf-4571-b9f1-d821ba81b02b)<br>
 
 <설명> 로그인은 CSS 위주로 img 태그를 활용하여 화면을 구현하였으며, 회원가입 또는 다른 로그인은 HTML 위주로 해당 글자 클릭 시에 설정한 링크로 이동되는 herf 태그를 활용하여 화면을 구현하였습니다.<br>
