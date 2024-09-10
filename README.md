@@ -12,7 +12,7 @@
 6. 작업 인원 : 3명<br>
 
 7. 결과물 :
-# <화면구현>
+## <화면구현>
  (1) 로그인 & (2) 회원가입
    ![image](https://github.com/user-attachments/assets/760a7e75-2abf-4571-b9f1-d821ba81b02b)<br>
 
@@ -28,5 +28,5 @@ CSS 위주로 img 태그를 활용하여 화면을 구현하였습니다.<br>
   https://github.com/hsy2493/Watcha/blob/master/Watcha/src/main/webapp/watcha/login.html<br>
 
 <b>8. 성과 
-- 이 미니 프로젝트를 통하여, HTML과 CSS 기술을 응용하여 화면구현이 가능함.<br>
+- HTML과 CSS 기술을 응용하여 화면구현이 가능함.<br>
 </b>
