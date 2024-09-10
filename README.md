@@ -18,11 +18,11 @@
 
 (1) 로그인 <br>
 <설명> <br>
-CSS 위주로 img 태그를 활용하여 화면을 구현하였습니다.<br>
+CSS 위주로 img 태그를 활용하여, 화면을 구현하였습니다.<br>
 
 (2) 회원가입 <br>
 <설명> <br>
-회원가입 또는 다른 로그인은 HTML 위주로 해당 글자 클릭 시에 설정한 링크로 이동되는 herf 태그를 활용하여 화면을 구현하였습니다.<br>
+회원가입 또는 다른 로그인은 HTML 위주로 해당 글자 클릭 시에 설정한 링크로 이동되는 herf 태그를 활용하여, 화면을 구현하였습니다.<br>
 
 * 로그인과 회원가입 상세 코드 <br>
   https://github.com/hsy2493/Watcha/blob/master/Watcha/src/main/webapp/watcha/login.html<br>
